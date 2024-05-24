@@ -2,12 +2,12 @@ clear all
 close all
 clc
 
-load('TrilhoMRUV.mat');
-load('TrilhoMRUV2.mat');
-load('DadosEXeTe1.mat');
-load('DadosEXeTe2.mat');
-load('DadosEXeTe3.mat')
-load('DadosEXeTe4.mat');
+load('dependences\DadosE1.mat');
+load('dependences\DadosE2.mat');
+load('dependences\DadosEXeTe1.mat');
+load('dependences\DadosEXeTe2.mat');
+load('dependences\DadosEXeTe3.mat');
+load('dependences\DadosEXeTe4.mat');
 
 figure(1);
 plot(TrilhodearMRU1S1.ams2,TrilhodearMRU1S1.faN);
