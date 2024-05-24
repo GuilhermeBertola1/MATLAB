@@ -6,7 +6,7 @@ load('TrilhoMRUV.mat');
 load('TrilhoMRUV2.mat');
 load('DadosEXeTe1.mat');
 load('DadosEXeTe2.mat');
-load('DadosEXeTe3.mat');
+load('DadosEXeTe3.mat')
 load('DadosEXeTe4.mat');
 
 figure(1);
