@@ -30,3 +30,12 @@ ylabel('velocidade (m/s)');
 title('Grafico de velocidade em funcao do t');
 xlim([-1 12]);
 ylim([-16 8]);
+
+figure(4);
+scatter(Atividade08IntegraogrficanaanlisedemovimentosII.t_s,Atividade08IntegraogrficanaanlisedemovimentosII.v_ms);
+grid minor;
+xlabel('tempo (s)');
+ylabel('velocidade (m/s)');
+title('Grafico de velocidade em funcao do t');
+xlim([-1 12]);
+ylim([-16 8]);
